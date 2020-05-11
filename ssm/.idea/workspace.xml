@@ -35,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -57,6 +60,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bfBQkMyfX7MRkk6B1HNl4ljaFZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -106,13 +110,13 @@
       </method>
     </configuration>
     <configuration name="Tomcat_9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat_9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssmproject_war_exploded2/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssmbuild_war_exploded/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ssmproject:war exploded2">
+        <artifact name="ssmbuild:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ssmproject_war_exploded2" />
+            <option name="CONTEXT_PATH" value="/ssmbuild_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -176,13 +180,14 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ssmproject:war exploded2" />
+          <artifact name="ssmbuild:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat_9.0.34" />
       <item itemvalue="JUnit.MyTest.test" />
       <item itemvalue="JUnit.MyTest" />
+      <item itemvalue="Tomcat Server.Tomcat_9.0.34" />
     </list>
     <recent_temporary>
       <list>
@@ -205,10 +210,22 @@
       <option name="presentableId" value="Default" />
       <updated>1589013253264</updated>
       <workItem from="1589013256915" duration="32556000" />
+      <workItem from="1589171955442" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
